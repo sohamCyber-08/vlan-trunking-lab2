@@ -65,18 +65,8 @@ the Layer 2 switch within the same IPv4 subnet.
 <img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/889d2d16-f679-4477-a5ba-f17de4012a53" />
 
 
+<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/c21b2615-3f5f-46d8-a155-68a05b8d65e4" />
 
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/2c184ae1-f6f1-45d0-bf00-a19cec07af54" />
-
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/5311e972-91e8-4608-b260-a6b164249713" />
-
-
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/78be4c7b-4b57-42fa-aabd-6b55c26b43ac" />
-
-
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/f64d113b-6494-46b4-8e7e-bc9277cd03c0" />
-
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/871ba1e6-faab-49e5-a1b0-9247b8be3c3a" />
 
 
 
