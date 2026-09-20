@@ -96,19 +96,8 @@ This successfully demonstrated same-VLAN communication and Layer 2 VLAN isolatio
 
 
 
-
 ## 📚 Key Learning
 
-- VLAN segmentation
-- VLAN 10 and VLAN 20
-- Access ports
-- 802.1Q trunking
-- Allowed VLANs
-- MAC address learning
-- Broadcast domains
-- Layer 2 communication
-- VLAN isolation
-- Basic Layer 2 troubleshooting
-
+This lab helped me understand VLAN segmentation, access port configuration, 802.1Q trunking, allowed VLANs, inter-switch communication, MAC address learning, ARP, same-VLAN communication, and Layer 2 isolation between different VLANs.
 
 
