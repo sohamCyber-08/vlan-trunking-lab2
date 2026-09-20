@@ -55,26 +55,33 @@ VLAN communication, and Layer 2 isolation.
 
 ### Same VLAN Communication
 
+## 📊 Communication Process
+
+### Same VLAN Communication — Cyber Team
+
 ```mermaid
 flowchart TD
-    A[Cyber_EMPLOYER_1<br/>10.1.1.1<br/>VLAN 10] --> B[Check Destination IP]
+    A[Cyber_TEAM_EMPLOYER_1<br/>10.1.1.1<br/>VLAN 10] --> B[Check Destination IP]
     B --> C{Same VLAN?}
     C -->|Yes| D[Check ARP Table]
     D --> E{MAC Address Known?}
+
     E -->|No| F[ARP Request]
     F --> G[ARP Reply]
     G --> H[Create Ethernet Frame]
+
     E -->|Yes| H
-    H --> I[Access Port]
-    I --> J[Switch]
-    J --> K[802.1Q Trunk]
-    K --> L[Other Switch]
-    L --> M[Destination Access Port]
-    M --> N[Cyber_EMPLOYER_2<br/>10.1.1.2<br/>VLAN 10]
+
+    H --> I[First_Floor_Switch<br/>Gi0/2<br/>Access Port]
+    I --> J[Gi0/0<br/>802.1Q Trunk]
+    J --> K[Main_Switch<br/>Gi0/0 → Gi0/1]
+    K --> L[Gi0/0<br/>802.1Q Trunk]
+    L --> M[Second_Floor_Switch<br/>Gi0/2<br/>Access Port]
+    M --> N[Cyber_TEAM_EMPLOYER_2<br/>10.1.1.2<br/>VLAN 10]
+
     N --> O[ICMP Echo Request]
     O --> P[ICMP Echo Reply]
-    P --> Q[Successful Communication]
-
+    P --> Q[Successful Same-VLAN Communication]
 ```
 ## ✅ Result
 
