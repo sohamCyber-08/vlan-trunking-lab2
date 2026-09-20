@@ -51,27 +51,31 @@ VLAN communication, and Layer 2 isolation.
 .
 
 
-
 ## 📊 Communication Process
 
-PC1
- ↓
-Checks destination subnet
- ↓
-Determines PC2 is local
- ↓
-ARP Request
- ↓
-ARP Reply
- ↓
-Ethernet Frame
- ↓
-ICMP Echo Request
- ↓
-ICMP Echo Reply
- ↓
-Successful communication
+### Same VLAN Communication
 
+```mermaid
+flowchart TD
+    A[Cyber_EMPLOYER_1<br/>10.1.1.1<br/>VLAN 10] --> B[Check Destination IP]
+    B --> C{Same VLAN?}
+    C -->|Yes| D[Check ARP Table]
+    D --> E{MAC Address Known?}
+    E -->|No| F[ARP Request]
+    F --> G[ARP Reply]
+    G --> H[Create Ethernet Frame]
+    E -->|Yes| H
+    H --> I[Access Port]
+    I --> J[Switch]
+    J --> K[802.1Q Trunk]
+    K --> L[Other Switch]
+    L --> M[Destination Access Port]
+    M --> N[Cyber_EMPLOYER_2<br/>10.1.1.2<br/>VLAN 10]
+    N --> O[ICMP Echo Request]
+    O --> P[ICMP Echo Reply]
+    P --> Q[Successful Communication]
+
+```
 ## ✅ Result
 
 Cyber_EMPLOYER_1 and Cyber_EMPLOYER_2 successfully communicated with each other within VLAN 10.
