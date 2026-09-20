@@ -63,8 +63,8 @@ PC1 and PC2 successfully communicated through
 the Layer 2 switch within the same IPv4 subnet.
 1)
 <img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/889d2d16-f679-4477-a5ba-f17de4012a53" />
-2)
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/8d8ab24f-ffda-4c35-a568-a25d1e013cd9" />
+
+
 
 
 
@@ -86,3 +86,6 @@ the Layer 2 switch within the same IPv4 subnet.
 - Layer 2 communication
 - VLAN isolation
 - Basic Layer 2 troubleshooting
+
+<img width="1817" height="898" alt="Screenshot 2026-09-20 053445" src="https://github.com/user-attachments/assets/468a2d3c-50f7-4fd5-a242-618d8768fcfa" />
+
