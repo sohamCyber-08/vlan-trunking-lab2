@@ -75,11 +75,8 @@ Successful communication
 ## ✅ Result
 
 Cyber_EMPLOYER_1 and Cyber_EMPLOYER_2 successfully communicated with each other within VLAN 10.
-
 IT_EMPLOYER_1 and IT_EMPLOYER_2 successfully communicated with each other within VLAN 20.
-
 Communication between the Cyber and IT teams was blocked because they belong to different VLANs and no Layer 3 routing was configured.
-
 This successfully demonstrated same-VLAN communication and Layer 2 VLAN isolation.
 
 
