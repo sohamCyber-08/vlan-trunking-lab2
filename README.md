@@ -61,11 +61,12 @@ Successful communication
 
 PC1 and PC2 successfully communicated through
 the Layer 2 switch within the same IPv4 subnet.
-
+1)
 <img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/889d2d16-f679-4477-a5ba-f17de4012a53" />
+2)
+<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/8d8ab24f-ffda-4c35-a568-a25d1e013cd9" />
 
 
-<img width="1826" height="857" alt="Screenshot 2026-09-20 051045" src="https://github.com/user-attachments/assets/c21b2615-3f5f-46d8-a155-68a05b8d65e4" />
 
 
 
