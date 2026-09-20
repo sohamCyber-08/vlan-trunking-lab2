@@ -1,4 +1,4 @@
-# vlan-trunking-lab2
+
 # 🧪 VLAN_TRUNKING_LAB
 
 ## 🎯 Objective
